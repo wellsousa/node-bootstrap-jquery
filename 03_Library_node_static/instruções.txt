@@ -1,0 +1,18 @@
+Para esse exemplo é necessária a instalação 
+da biblioteca node-static.
+
+Para a instalação via npm use o código:
+
+sudo npm install node-static -g
+
+A vantagem de usar a flag -g é que se a biblioteca for extensivamente
+utilizada voce poderá associa-la por padrão a uma IDE e fazer com seja incorporada
+aos modulos padroes do node.js. Mas se é uma bliblioteca que voce pretende usar para
+um projeto especifico, talvez, voce queira instalar de a biblioteca dentro do projeto em questão.
+O comando -g instala de modo global a biblioteca mas para incluir em um projeto voce
+de instalar assim:
+
+sudo npm install node-static
+
+Será criada uma pasta dentro do projeto chamada 'node_modules'
+e dentro dela estará a pasta do plugin node-static
