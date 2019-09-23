@@ -1,0 +1,18 @@
+Para esse módulo nós utilizaremos uma library chamada 'http-server'.
+Essa biblioteca cria um servidor http para servir todos os arquivos de um projeto.
+Desse modo, você não precisa startar o arquivo do servidor manualmente através do node no prompt
+
+O comando de instalação no prompt é:
+sudo npm install http-server -g
+
+A flag '-g' instalará o pacote em escopo global. A instalação deve
+ser assim pois a biblioteca http-server possui comandos para utlização 
+no prompt e para que sejam reconhecidos a instalação deve ser global.
+
+para executar o projeto com o servidor voce deve digitar no prompt dentro da pasta do projeto
+o comando:
+
+http-server
+
+Então, no navegador basta digitar o enderço informado no prompt.
+

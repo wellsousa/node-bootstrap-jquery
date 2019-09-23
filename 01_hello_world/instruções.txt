@@ -1,0 +1,5 @@
+
+
+Atualização do NPM:
+
+sudo npm install -g npm
