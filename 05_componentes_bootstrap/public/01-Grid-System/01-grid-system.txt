@@ -1,0 +1,28 @@
+-O sistema de grid do bootstrap 4 é divido em 12 colunas.
+
+-O código xl extra large indica telas grande(Extra Large)
+>=1200px
+ex:
+   col-xl-6
+
+-O código lg indica telas maiores(Large)
+>=992px
+ex:
+   col-lg-6
+
+-O codigo md indica telas medias(medium size)
+>=768px
+ex:
+   col-md-6
+
+-O codigo sm indica telas pequenas (small size)
+>= 576px
+ex:
+   col-sm-6
+
+-O não uso de código indica telas bem pequenas (extra small)
+telas com tamanho < 576px
+ex:
+   col-6
+
+Dentro de uma mesma div é possivel configurar tamanhos para telas de diferentes tamanhos.
