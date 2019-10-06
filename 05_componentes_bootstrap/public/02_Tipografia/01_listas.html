@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Instalando o Bootstrap com o Node.js</title>
+
+        <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            
+            <h3>listas comuns</h3>
+            <ul>
+                <li>Maça</li>
+                <li>Banana</li>
+                <li>Laranja</li>
+                <li>Mamão</li>
+                <li>Pessego</li>
+            </ul>
+
+            <!-- 
+                A classe 'list-unstyled' remove todas as pre-formatações das listas. Mas não remove de possiveis
+                listas aninhadas. Se houver outras listas aninhadas a classe deve ser aplicada novamente.
+            -->
+            <h3>Listas sem estilização</h3>
+            <ol class="list-unstyled">
+                <li>São Paulo</li>
+                <li>Minas Gerais
+                    <ol>
+                        <li>Belo Horizonte</li>
+                        <li>Betim</li>
+                    </ol>
+                </li>
+                <li>Rio de Janeiro</li>
+                <li>Bahia</li>
+            </ol>
+
+            <h3>Listas horizontais</h3>
+            <ul class="list-inline">
+                <li class="list-inline-item">Produtos</li>
+                <li class="list-inline-item">Serviços</li>
+                <li class="list-inline-item">Orçamentos</li>
+                <li class="list-inline-item">Contato</li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="../bootstrap4/js/jquery-slim.js"></script>
+        <script tpye="text/javascript" src="../bootstrap4/js/popper.js"></script>
+        <script type="text/javascript" src="../bootstrap4/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
